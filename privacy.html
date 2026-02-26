@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #ffffff;
+      --text: #111111;
+      --muted: #666666;
+      --accent: #007aff;
+      --border: #e5e5e5;
+      --header-bg: rgba(255, 255, 255, 0.92);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0b0b;
+        --text: #f5f5f5;
+        --muted: #a0a0a0;
+        --accent: #5fa8ff;
+        --border: #2a2a2a;
+        --header-bg: rgba(11, 11, 11, 0.92);
+      }
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      -webkit-text-size-adjust: 100%;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: var(--header-bg);
+      backdrop-filter: saturate(180%) blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    .title {
+      font-size: 28px;
+      font-weight: 700;
+      margin: 0 0 4px 0;
+      letter-spacing: -0.01em;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 14px;
+      margin: 0;
+    }
+    nav {
+      margin: 24px 0 32px 0;
+      padding: 16px 18px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: color-mix(in srgb, var(--bg) 92%, var(--accent) 8%);
+    }
+    nav h2 {
+      margin: 0 0 8px 0;
+      font-size: 16px;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 6px;
+    }
+    section { margin: 28px 0; scroll-margin-top: 96px; }
+    section h2 {
+      font-size: 20px;
+      margin: 0 0 10px 0;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+    p { margin: 0 0 12px 0; }
+    ul { margin: 0 0 12px 18px; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 24px 0; }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+    @media (min-width: 640px) {
+      nav ul { grid-template-columns: 1fr 1fr; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="title">Privacy Policy</h1>
+      <p class="subtitle">Last updated: 26.02.2026</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <p>This Privacy Policy describes how <strong>Prompt Board</strong> (“the App”) handles information when you use the application.</p>
+
+    <nav aria-label="Table of contents">
+      <h2>Contents</h2>
+      <ul>
+        <li><a href="#overview">1. Overview</a></li>
+        <li><a href="#information-stored">2. Information Stored in the App</a></li>
+        <li><a href="#icloud-sync">3. iCloud / CloudKit Sync</a></li>
+        <li><a href="#ai-features">4. AI Features</a></li>
+        <li><a href="#keyboard-extension">5. Keyboard Extension</a></li>
+        <li><a href="#purchases">6. Purchases and Subscriptions</a></li>
+        <li><a href="#analytics">7. Analytics and Tracking</a></li>
+        <li><a href="#data-control">8. Data Control</a></li>
+        <li><a href="#children">9. Children’s Privacy</a></li>
+        <li><a href="#changes">10. Changes to This Policy</a></li>
+        <li><a href="#contact">11. Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="overview">
+      <h2>1. Overview</h2>
+      <p>Your privacy is important. The App is designed to minimize data collection and prioritize on-device processing whenever possible.</p>
+      <p>The App does not require account creation and does not sell or share personal information.</p>
+    </section>
+
+    <hr />
+
+    <section id="information-stored">
+      <h2>2. Information Stored in the App</h2>
+      <p>The App allows users to create and manage AI prompts and related content.</p>
+      <p>The following data may be stored locally on your device:</p>
+      <ul>
+        <li>Prompt titles and text</li>
+        <li>Tags and organization data</li>
+        <li>Ratings and preferences</li>
+        <li>App settings</li>
+      </ul>
+      <p>This information is stored using Apple system technologies and remains under your control.</p>
+    </section>
+
+    <hr />
+
+    <section id="icloud-sync">
+      <h2>3. iCloud / CloudKit Sync</h2>
+      <p>If iCloud synchronization is enabled, your data may be securely stored using Apple CloudKit.</p>
+      <ul>
+        <li>Data is associated with your Apple ID.</li>
+        <li>The developer does not have direct access to this data.</li>
+        <li>Apple manages encryption and storage.</li>
+      </ul>
+      <p>Learn more at: <a href="https://www.apple.com/legal/privacy/" rel="noopener">https://www.apple.com/legal/privacy/</a></p>
+    </section>
+
+    <hr />
+
+    <section id="ai-features">
+      <h2>4. AI Features</h2>
+      <p>The App may offer AI-based prompt improvement features.</p>
+      <ul>
+        <li>Supported devices may process improvements directly on-device using Apple technologies.</li>
+        <li>On unsupported devices, limited processing methods may be used to provide similar functionality.</li>
+        <li>No personal identity information is intentionally collected for AI processing.</li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <section id="keyboard-extension">
+      <h2>5. Keyboard Extension</h2>
+      <p>The App includes an optional keyboard extension.</p>
+      <p>The keyboard:</p>
+      <ul>
+        <li>Displays saved prompts selected by the user</li>
+        <li>Inserts prompts into text fields when tapped</li>
+      </ul>
+      <p>The keyboard does <strong>not</strong>:</p>
+      <ul>
+        <li>record keystrokes</li>
+        <li>collect personal typing data</li>
+        <li>transmit what you type</li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <section id="purchases">
+      <h2>6. Purchases and Subscriptions</h2>
+      <p>Subscriptions are processed by Apple through the App Store.</p>
+      <p>The developer does not receive payment information such as credit card numbers or billing details.</p>
+    </section>
+
+    <hr />
+
+    <section id="analytics">
+      <h2>7. Analytics and Tracking</h2>
+      <p>The App does not use third-party advertising trackers and does not track users across apps or websites.</p>
+    </section>
+
+    <hr />
+
+    <section id="data-control">
+      <h2>8. Data Control</h2>
+      <p>You may delete your data at any time by:</p>
+      <ul>
+        <li>removing content inside the App, or</li>
+        <li>deleting the App from your device.</li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <section id="children">
+      <h2>9. Children’s Privacy</h2>
+      <p>The App is not directed toward children under 13 years of age.</p>
+    </section>
+
+    <hr />
+
+    <section id="changes">
+      <h2>10. Changes to This Policy</h2>
+      <p>This Privacy Policy may be updated periodically. Continued use of the App indicates acceptance of updates.</p>
+    </section>
+
+    <hr />
+
+    <section id="contact">
+      <h2>11. Contact</h2>
+      <p>If you have questions about this Privacy Policy, contact:</p>
+      <p><a href="mailto:connect.suntech@gmail.com">connect.suntech@gmail.com</a></p>
+    </section>
+
+    <footer>
+      <div class="footer-grid">
+        <div>Last updated: 26.02.2026</div>
+        <div>Support: <a href="mailto:connect.suntech@gmail.com">connect.suntech@gmail.com</a></div>
+        <div>App Name: Prompt Board</div>
+        <div>Copyright © 2026 Prompt Board. All rights reserved.</div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
